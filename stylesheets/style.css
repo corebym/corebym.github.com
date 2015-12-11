@@ -1,0 +1,126 @@
+body,ul, li, h1, h2, form, input, p, a {
+	padding:0;
+	margin:0;
+}
+body{background-color: #F7F7F7;font-family: "宋体"; font-size: 14px;}
+ul,li{list-style: none;}
+a{text-decoration: none;color: #000; outline: none;}
+
+#zhanshi{width: 1000px;height: 300px; margin: 0 auto;margin-top: 20px;/* border: 1px solid #ccc;*/ background-color: #F7F7F7;}
+.zhanshi1{width: 250px;height: 280px; background-color: #ccc;float: left; border: 1px solid #ccc;margin-top: 10px;margin-left: 0px;position: relative;}
+.zhanshi2{width: 238px;height: 135px; margin-left: 8px;background-color: #ccc;float: left;margin-top: 9px;position: relative; border: 1px solid #ccc;}
+.yinying1{width: 250px;height: 26px;background-color:#000; filter:alpha(Opacity=70);-moz-opacity:0.7;opacity: 0.7; position: absolute;top: 254px;left:0;}
+.zhanshi1 p{position: absolute; top: 259px;left: 15px;color: #fff;font-size: 14px;}
+.yinying2{width: 238px;height: 20px;background-color: #000;position: absolute;top:115px;left:0;filter:alpha(Opacity=70);-moz-opacity:0.7;opacity: 0.7;}
+.zhanshi2 p{position: absolute; top: 117px;left: 15px;color: #fff;font-size: 14px;}
+.next{width: 240px;height: 135px; margin-left: 8px;background-color: #666;float: left;margin-top: 10px;display: block;color: #fff;font-family: "Microsoft YaHei";cursor: pointer;}
+.next .large-t{font-size: 42px;padding: 30px 0 0 20px;}
+.next .small-t{padding-left: 25px;}
+.next:hover{background-color: #E53D10;}
+
+#cebian{position: fixed;left: 50%;top:149px; margin-left: 516px;border:1px solid #ccc;}
+#cebian li{width: 80px; font-size: 14px; background-color: #fff;height: 30px; text-align: center;
+border-bottom: 1px solid #E6EBF4; line-height: 30px;}
+#cebian li:hover{background-color: #E6F4FB;}
+#cebian a{text-decoration: none; color: #333;display: block;}
+#cebian a:hover{color: #B9282F;}
+#cebian li:last-child {height: 50px;line-height: 50px;}
+
+/*字体开始*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon9c9a.eot?rtunbe');
+	src:url('../fonts/icomoond41d.eot?#iefixrtunbe') format('embedded-opentype'),
+		url('../fonts/icomoon9c9a.ttf?rtunbe') format('truetype'),
+		url('../fonts/icomoon9c9a.woff?rtunbe') format('woff'),
+		url('../fonts/icomoon9c9a.svg?rtunbe#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-music:before {
+	content: "\e60a";
+}
+.icon-battery:before {
+	content: "\e600";
+}
+.icon-comment:before {
+	content: "\f02b";
+}
+.icon-home:before {
+	content: "\e601";
+}
+.icon-film:before {
+	content: "\e602";
+}
+.icon-book:before {
+	content: "\e605";
+}
+.icon-coin-yen:before {
+	content: "\e603";
+}
+.icon-search:before {
+	content: "\e609";
+}
+.icon-stats-dots:before {
+	content: "\e604";
+}
+.icon-circle-up:before {
+	content: "\e606";
+}
+.icon-google:before {
+	content: "\e607";
+}
+.icon-windows8:before {
+	content: "\e608";
+}
+/*字体结束*/
+
+#header{width: 100%;height: 120px;background-color: #fff;moz-box-shadow: 0px 2px 20px #888; /* 老的 Firefox */
+box-shadow: 0px 5px 15px #888;}
+#headerkuang{width: 1000px;height: 120px;margin: 0 auto; background-color: #fff;}
+#logo{float: left;margin-top: 15px;}
+.formkuang{background-color: #fff; width: 250px;padding: 5px;border: 1px solid #515151;float: left;margin-top:35px;margin-left: 200px;}
+.input-text{outline: 0;width: 200px;height: 30px;border: 0;float: left;font-size: 16px;}
+.input-submit{border: 0;outline: 0; width: 50px;height: 30px;background-image: url(../images/search.jpg); cursor: pointer;}
+#headerright{float:left;margin-left: 50px;width:250px;height: 100px;text-align: center;}
+#headerright ul{margin-top: 40px; font-size: 15px;color: #B9282F;}
+#headerright li{ line-height: 30px;float: left;padding: 3px;}
+
+.ul1 .qiangdiao a,.content .qiangdiao a{color: #E13F3F; font-weight: bold;}
+.ul1 .xiaofenlei,.content .xiaofenlei{color: #E13F3F; background: url("../images/xiaofenlei.gif") no-repeat 26px 4px;}
+.ul1 a:hover,.content a:hover{text-decoration: underline;color: #EB6A01;}
+.zhutikuang{width: 1000px;background-color: #fff; margin: 0 auto;border: 1px solid #ccc; margin-top: 20px;}
+.tab{width: 1000px;height: 36px; border-bottom: 1px solid #ccc;}
+.tab li{float: left; width: 94px;height: 36px;line-height: 36px; border-right: 1px solid #ccc; text-align: center;font-size: 14px;}
+.tab li:hover{color: #EB6A01; cursor: pointer;background-color: #F3F3F3;}
+.tab span{float: left;line-height: 36px;width: 100px;text-align: center;border-right: 1px solid #ccc;font-size: 14px;background-color: #EB6A01; color: #fff;font-weight: bold;}
+.ul1 li,.content li{width:130px;float:left; height: 36px;line-height:36px;text-align:center;font-size: 14px;padding: 5px;}
+#yingshishow div,#ruanjianshow div,#mianfeishow div,#pptshow div,#dushushow div,#wangpanshow div,#gugeshow div,#musicshow div{display: none;}
+#yingshishow .show,#ruanjianshow .show,#mianfeishow .show,#pptshow .show,#dushushow .show,#wangpanshow .show,#gugeshow .show,#musicshow .show{display: block;}
+.yingshitab .current,.ruanjiantab .current,.mianfeitab .current,.ppttab .current,.dushutab .current,.wangpantab .current,.gugetab .current,.musictab .current{ background-color:#fff;color:#EB6A01;font-weight:bold;border-top:1px solid #EB6A01;/*border-right:1px solid #ccc;border-left:1px solid #ccc;*/}
+
+
+/*footer*/
+#footer{width: 100%;height:200px; background-color: #fff; margin-top: 26px;-moz-box-shadow: 0px -2px 20px #888; /* 老的 Firefox */
+box-shadow: 0px -2px 20px #888;font-family:"宋体";}
+#footercenter{ width: 1000px; height: 200px; margin: 0 auto; background-color:#fff; color: #000;}
+#footerl{width: 500px; float: left;}
+#footerr{width: 500px;float: right;font-size: 13px; position: relative;}
+#footerr p{position: absolute;top: 20px;left: 30px;}
+#footerr a{margin-right: 20px; line-height: 25px; color: #B9282F; text-decoration: none;}
+#footerr a:hover{color: red;}
